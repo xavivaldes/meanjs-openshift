@@ -15,7 +15,7 @@
 	"scripts": {
 		"start": "grunt",
 		"test": "grunt test",
-		"postinstall": "bower install --config.interactive=false"
+		"postinstall": "export HOME=$HOME/app-root/runtime/repo; ./node_modules/bower/bin/bower install --config.interactive=false"
 	},
 	"dependencies": {
 		"express": "~4.10.1",
